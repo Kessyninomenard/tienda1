@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
+body{
+  font-family: 'Indie Flower', cursive;
+  font-size: 16px;
+}
+label{
+  font-family: 'Oswald', sans-serif;
+}
+.info{
+  margin-bottom: 200px;
+  text-align: center;
+}
+.desc{
+font-family: 'Gentium Basic', serif;
+}
+.field {
+  display:flex;
+  position:realtive;
+  margin:5em auto;
+  width:70%;
+  flex-direction:row;
+}
+.field>input[type=text],
+.field>button {
+  display:block;
+  font:1.2em 'Montserrat Alternates';
+}
+
+.field>input[type=text] {
+  flex:1;
+  padding:0.6em;
+  border:0.2em solid rgb(26, 188, 156);
+}
+.field>button {
+  padding:0.4em 0.6em;
+  background-color:white;
+  color: #4E9DFF;
+  border:0.2em solid rgb(26, 188, 156);
+  }
+
+div#contenedor{
+width: 80%;
+position: relative;
+height: 150px;
+}
+div#contenedor #slider{
+  border-radius: 10px;
+  border:2px solid red;
+  width: 70%;
+  margin: 0 auto;
+  min-height: 250px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  position: relative;
+  overflow: hidden; 
+  padding: 0px;
+}
+div#contenedor #slide div.elemento{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 90%;
+}
+div#slider div.elemento img{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border:0px;
+
+}
+.span4{
+  text-decoration: none;
+}
+.prix{
+  text-align: right;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+.categorie{
+  text-decoration: none;
+  font-family: 'Slabo 27px', serif;
+  color: black;
+}
+.titre{
+  text-decoration:none; 
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  color: black;
+}
+ @media screen and (min-width: 480px){
+
+  
+ }
+
+  @media screen and (min-width: 767px){
+
+ }
+
+  @media screen and (min-width: 950px){
+  
+ }
